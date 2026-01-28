@@ -1,0 +1,24 @@
+# Eleições - Análise de performace de votos
+
+O projeto foi desenvolvido por mim como simulação da análise de uma campanha eleitoral, com o objetivo de praticar **Power BI** em um cenário completo de análise de dados.
+
+
+## Objetivo
+Analisar o desempenho dos canditados, filtrando os dados por idade, gênero, partido e cidade, criando um **dashboard interativo no Power BI**.
+
+## Estrutura do Projeto
+**/powerbi** → contém o dashboard `Eleições.pbix`  
+
+## Dashboard Power BI
+O relatório apresenta:
+- Candidatos eleitos por estado e partido
+- Quantidade de votos válidos por partido
+- Análise demográfica dos candidados (idade, gênero)
+
+## Principais medidas DAX
+- total candidatos = COUNT(candidatos[id_candidato])
+- total eleitos = CALCULATE( COUNT ( resultado_candidatos[id_candidato] ), resultado_candidatos[resultado] = "eleito")
+
+## Tecnologias Utilizadas  
+- **Power BI** → criação do dashboard  
+- **GitHub** → versionamento e portfólio  
