@@ -1,4 +1,4 @@
-# Eleições - Análise de performace de votos
+# Eleições - Análise de desempenho eleitoral
 
 
 O projeto foi desenvolvido por mim como simulação da análise de uma campanha eleitoral, com o objetivo de praticar **Power BI** em um cenário completo de análise de dados.
